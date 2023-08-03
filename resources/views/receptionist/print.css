@@ -1,0 +1,11 @@
+/* print.css */
+@media print {
+    /* Hide elements you want to be hidden during printing */
+    body {
+        visibility: hidden;
+    }
+    .ticket {
+        /* adjust styles as needed */
+        display: none;
+    }
+}
